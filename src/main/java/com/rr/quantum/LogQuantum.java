@@ -41,6 +41,16 @@ public class LogQuantum {
     * Se utiliza para registrar mensajes de acceso en un archivo de log específico.
     */
     private static final Logger ACCESS = Logger.getLogger("access.log");
+    
+    /**
+     * Constructor por defecto de la clase LogQuantum.
+     * 
+     * Este constructor no realiza ninguna operación específica. Se utiliza para crear una instancia
+     * de la clase LogQuantum, que inicializa los loggers de error y acceso.
+     */
+    public LogQuantum() {
+        // No es necesario realizar ninguna operación aquí
+    }
 
     /**
     * Configuración estática para inicializar los manejadores de log basados en el sistema operativo.

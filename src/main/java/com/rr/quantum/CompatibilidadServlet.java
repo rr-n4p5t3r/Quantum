@@ -16,6 +16,15 @@ import java.io.*;
 public class CompatibilidadServlet extends HttpServlet {
     
     /**
+     * Constructor por defecto.
+     * 
+     * Crea una nueva instancia de CompatibilidadServlet.
+     */
+    public CompatibilidadServlet() {
+        // No es necesario realizar ninguna operación aquí
+    }
+    
+    /**
      * Método para manejar las solicitudes GET.
      * 
      * Este método se invoca cuando se recibe una solicitud GET y es responsable de

@@ -33,6 +33,16 @@ public class SSLServerConfig {
     private static final String KEYSTORE_PASSWORD = "contraseña-del-almacen-de-claves";
 
     /**
+     * Constructor por defecto de la clase SSLServerConfig.
+     * 
+     * Este constructor no realiza ninguna operación específica. Se utiliza para crear una
+     * instancia de la clase SSLServerConfig.
+     */
+    public SSLServerConfig() {
+        // No es necesario realizar ninguna operación aquí
+    }
+    
+    /**
      * Crea un servidor SSL en el puerto especificado.
      *
      * @param port El número de puerto en el que se va a escuchar.

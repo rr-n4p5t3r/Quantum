@@ -67,6 +67,16 @@ public class SoporteArchivos {
     private static final String PHP_LINUX = "/usr/bin/php";
 
     /**
+     * Constructor por defecto de la clase SoporteArchivos.
+     * 
+     * Este constructor no realiza ninguna operación específica. Se utiliza para crear una
+     * instancia de la clase SoporteArchivos.
+     */
+    public SoporteArchivos() {
+        // No es necesario realizar ninguna operación aquí
+    }
+    
+    /**
      * Sirve un archivo estático al cliente a través del flujo de salida especificado.
      * 
      * @param out El flujo de salida para escribir la respuesta HTTP.

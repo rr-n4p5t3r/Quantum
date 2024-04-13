@@ -18,6 +18,16 @@ import java.net.ServerSocket;
  */
 public class PortChecker {
     /**
+     * Constructor por defecto de la clase PortChecker.
+     * 
+     * Este constructor no realiza ninguna operación específica. Se utiliza para crear una
+     * instancia de la clase PortChecker.
+     */
+    public PortChecker() {
+        // No es necesario realizar ninguna operación aquí
+    }
+    
+    /**
      * Verifica si el puerto especificado está disponible y no está bloqueado.
      *
      * @param port El número de puerto a verificar.
