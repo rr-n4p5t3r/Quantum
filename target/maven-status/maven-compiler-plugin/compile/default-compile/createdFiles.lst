@@ -1,0 +1,6 @@
+com\rr\quantum\CompatibilidadServlet.class
+com\rr\quantum\LogQuantum.class
+com\rr\quantum\PortChecker.class
+com\rr\quantum\Quantum.class
+com\rr\quantum\SoporteArchivos.class
+com\rr\quantum\SSLServerConfig.class
