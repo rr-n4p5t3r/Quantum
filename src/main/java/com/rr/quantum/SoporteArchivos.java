@@ -24,7 +24,7 @@ public class SoporteArchivos {
     * servidos por el servidor en sistemas Windows. Se utiliza para construir las rutas de los archivos solicitados por los clientes.
     * La ruta en sistemas Windows es "D:\\www".
     */
-    private static final String WEB_ROOT_WINDOWS = "D:\\www";
+    private static final String WEB_ROOT_WINDOWS = "D:\\quantum\\www";
     /**
      * Ruta raíz del directorio web en sistemas Linux.
      * 
@@ -32,7 +32,7 @@ public class SoporteArchivos {
      * servidos por el servidor en sistemas Linux. Se utiliza para construir las rutas de los archivos solicitados por los clientes.
      * La ruta en sistemas Linux es "/tmp/www".
      */
-    private static final String WEB_ROOT_LINUX = "/tmp/www";
+    private static final String WEB_ROOT_LINUX = "/mnt/quantum/www";
 
     /**
      * Ruta al ejecutable de Python en sistemas Windows.

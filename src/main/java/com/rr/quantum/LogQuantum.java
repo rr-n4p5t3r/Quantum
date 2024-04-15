@@ -28,7 +28,7 @@ public class LogQuantum {
     * Ruta base para los archivos de log en entornos Linux.
     * Se utiliza para almacenar archivos de log de errores y accesos en sistemas operativos Linux.
     */
-    private static final String LOG_LINUX = "/tmp/www/log/";
+    private static final String LOG_LINUX = "/var/log/";
 
     /**
     * Logger para el registro de errores.

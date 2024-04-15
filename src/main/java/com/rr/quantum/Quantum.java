@@ -95,8 +95,22 @@ public class Quantum {
                 LogQuantum.logAccess(method + " " + uri + " " + httpVersion);
 
                 if ("GET".equals(method)) {
-                    SoporteArchivos.serveFile(out, uri);
-                    SoporteArchivos.servePhpFile(out, uri);
+                    // Obtener el tamaño del archivo solicitado
+                    URL url = new URL("http://localhost:1980" + uri); // Cambiar la URL según sea necesario
+                    HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+                    connection.setRequestMethod("HEAD");
+                    int contentLength = connection.getContentLength();
+
+                    // Verificar el límite de lectura antes de iniciar el servidor
+                    long readLimit = 8192; // 8 KB
+                    boolean withinReadLimit = DataLimitChecker.checkReadLimit(readLimit, contentLength);
+
+                    if (withinReadLimit) {
+                        SoporteArchivos.serveFile(out, uri);
+                        SoporteArchivos.servePhpFile(out, uri);
+                    } else {
+                        LogQuantum.logError("El tamaño de lectura excede el límite permitido.");
+                    }
                 } else {
                     sendError(out, 501, "Not Implemented");
                 }
