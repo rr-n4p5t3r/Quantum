@@ -34,6 +34,15 @@ public class Quantum {
     * Por defecto, se establece en 2016.
     */
     private static final int SSLPORT = 2016;
+    
+    /**
+     * Constructor por defecto.
+     * 
+     * Crea una nueva instancia de Quantum.
+     */
+    public Quantum() {
+        // No es necesario realizar ninguna operación aquí
+    }
 
     /**
      * Método principal para iniciar los servidores web.
