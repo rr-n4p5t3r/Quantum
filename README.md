@@ -2,8 +2,6 @@
 
 Quantum es un servidor de publicación web escrito en Java, diseñado para ofrecer un entorno robusto y seguro para alojar sitios web y aplicaciones web. Este proyecto está en constante evolución y se desarrolla con el objetivo de proporcionar un servidor web altamente funcional y seguro para satisfacer las necesidades de alojamiento web modernas.
 
-**Nota importante: Este proyecto está destinado únicamente para su uso en entornos de desarrollo y pruebas. No debe utilizarse en entornos de producción sin una configuración y consideraciones de seguridad adecuadas. El autor no se hace responsable del mal uso de este software.**
-
 ## Funcionalidades
 
 ### Servidor sin SSL
