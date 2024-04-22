@@ -1,48 +1,49 @@
 # Quantum
- 
- 
-<div>
-  <img src="https://networkencyclopedia.com/wp-content/uploads/2019/09/web-server.png" width="600" height="300"/>
-</div>
 
-# Proyecto Quantum
+Quantum es un servidor de publicación web escrito en Java, diseñado para ofrecer un entorno robusto y seguro para alojar sitios web y aplicaciones web. Este proyecto está en constante evolución y se desarrolla con el objetivo de proporcionar un servidor web altamente funcional y seguro para satisfacer las necesidades de alojamiento web modernas.
 
-## Introducción
+**Nota importante: Este proyecto está destinado únicamente para su uso en entornos de desarrollo y pruebas. No debe utilizarse en entornos de producción sin una configuración y consideraciones de seguridad adecuadas. El autor no se hace responsable del mal uso de este software.**
 
-¡Bienvenido al repositorio del Proyecto Quantum! Aquí encontrarás un servidor de publicación web escrito en Java, diseñado para proporcionar servicios de hosting web de manera eficiente y segura. Este proyecto se enfoca en ofrecer una plataforma robusta para alojar aplicaciones web, servir contenido estático y garantizar la seguridad de las comunicaciones mediante HTTPS.
+## Funcionalidades
 
-## Acerca del Repositorio
+### Servidor sin SSL
 
-El Proyecto Quantum es un servidor de publicación web, escrito completamente en Java, lo que garantiza su portabilidad y facilidad de implementación en diversos entornos. Este servidor se utiliza para alojar sitios web y aplicaciones web, proporcionando un entorno estable y seguro para servir contenido web.
+El servidor Quantum proporciona un servidor web sin SSL que escucha en el puerto 1980. Este servidor maneja las solicitudes HTTP normales y es ideal para servir contenido web estático y dinámico de manera eficiente.
 
-### Tecnologías utilizadas: ###
-<div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
-</div>
+### Servidor con SSL
 
-## Puertos Utilizados
-
-El servidor Quantum utiliza dos puertos principales para gestionar las solicitudes de los clientes:
-
-- **Puerto 1980 sin SSL:** Este puerto se utiliza para manejar las solicitudes HTTP normales. Aquí se procesan las solicitudes de los clientes que no requieren una conexión segura. Es ideal para servir contenido web estático y dinámico de manera eficiente.
-
-- **Puerto 2016 con SSL:** Este puerto se utiliza para manejar las solicitudes HTTPS seguras. Aquí se establecen conexiones seguras mediante el protocolo SSL/TLS, garantizando la confidencialidad e integridad de los datos transmitidos entre el servidor y el cliente.
-
-## Licencia
-
-El Proyecto Quantum se distribuye bajo la licencia GNU General Public License v3.0 (GNU GPLv3). Consulta el archivo `LICENSE` para obtener más información.
+Quantum también ofrece un servidor web con SSL que escucha en el puerto 2016. Este servidor utiliza HTTPS para establecer conexiones seguras, garantizando la confidencialidad e integridad de los datos transmitidos entre el servidor y el cliente.
 
 ## Contribuciones y Fork
 
-¡Tu contribución es bienvenida en el Proyecto Quantum! Si deseas contribuir al desarrollo del proyecto, puedes realizar un fork de este repositorio, realizar tus cambios y enviar una solicitud de extracción (pull request). Nos encantaría revisar tus contribuciones y trabajar juntos para mejorar el proyecto.
+Las contribuciones son bienvenidas en el Proyecto Quantum. Si deseas contribuir al desarrollo del proyecto, sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Clona tu fork en tu máquina local.
+3. Crea una nueva rama para tu contribución (`git checkout -b feature/nueva-funcionalidad`).
+4. Realiza tus cambios y haz commits (`git commit -am 'Agrega nueva funcionalidad'`).
+5. Haz push a tu rama (`git push origin feature/nueva-funcionalidad`).
+6. Abre un pull request en GitHub.
+
+## Licencia
+
+Este proyecto se distribuye bajo la [Licencia Pública General de GNU, versión 3 (GNU GPLv3)](LICENSE). Consulta el archivo `LICENSE` para obtener más detalles.
 
 ## Actualizaciones Futuras
 
 El Proyecto Quantum está en constante evolución y se realizan actualizaciones periódicas para mejorar su funcionalidad y seguridad. Estamos trabajando en habilitar el soporte para tecnologías adicionales, como PHP, y en mejorar la interfaz de usuario y la experiencia del usuario en general. Mantente atento a futuras actualizaciones y mejoras.
 
+## Autor
+
+**Ricardo Rosero**  
+Email: rrosero2000@gmail.com  
+GitHub: [n4p5t3r](https://github.com/rr-n4p5t3r)
+
 ### Invítame un café: ###
+
 <div id="badges">
   <a href="https://www.buymeacoffee.com/elblogden4p5t3r" target="_blank">
-    <img src="https://img.shields.io/badge/buymeacoffee-yellow?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="LinkedIn Badge"/>
+    <img src="https://img.shields.io/badge/buymeacoffee-yellow?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me A Coffee"/>
   </a>
 </div>
+
