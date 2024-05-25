@@ -105,7 +105,7 @@ public class Quantum {
 
                 if ("GET".equals(method)) {
                     // Obtener el tamaño del archivo solicitado
-                    URL url = new URL("http://localhost:1980" + uri); // Cambiar la URL según sea necesario
+                    URL url = new URL("http://localhost:" + uri); // Cambiar la URL según sea necesario
                     HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                     connection.setRequestMethod("HEAD");
                     int contentLength = connection.getContentLength();

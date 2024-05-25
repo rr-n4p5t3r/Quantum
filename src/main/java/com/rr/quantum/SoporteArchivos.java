@@ -24,7 +24,7 @@ public class SoporteArchivos {
     * servidos por el servidor en sistemas Windows. Se utiliza para construir las rutas de los archivos solicitados por los clientes.
     * La ruta en sistemas Windows es "D:\\www".
     */
-    private static final String WEB_ROOT_WINDOWS = "D:\\quantum\\www";
+    private static final String WEB_ROOT_WINDOWS = "D:\\www";
     /**
      * Ruta raíz del directorio web en sistemas Linux.
      * 
